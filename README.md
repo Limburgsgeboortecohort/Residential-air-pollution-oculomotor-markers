@@ -52,18 +52,6 @@ The `code/` directory contains the R scripts used for the statistical analyses, 
 - `11_BKMR_DLM_First1000Days.R`  
   Performs the BKMR-DLM analysis for air pollution exposure during the first 1000 days of life.
 
-## Analysis dataset
-
-The R scripts expect the individual-level analysis dataset to be available locally as:
-
-`data/analysis_dataset.xlsx`
-
-The participant-level ENVIRONAGE dataset is **not included in this repository**.
-
-The individual-level data underlying this study cannot currently be made publicly available because they are being used in several ongoing and planned studies that are at different stages of the research and publication process. In addition, access to individual-level cohort data is subject to applicable ethical, privacy, and institutional data-governance requirements.
-
-No individual-level participant data are included in this repository.
-
 ## Software
 
 Statistical analyses were performed using:
@@ -140,19 +128,9 @@ The same model specification as in the corresponding primary analysis was used, 
 
 ## Reproducibility
 
-The analysis code is made publicly available to facilitate transparency and reproducibility of the statistical workflow.
-
 Because the underlying participant-level data cannot be publicly distributed, the analyses cannot be reproduced directly from this repository alone. However, the provided scripts document the data-processing steps, variable definitions, statistical models, model diagnostics, sensitivity analyses, multiple-testing procedures, sex-stratified analyses, Bayesian mixture analyses, and figure-generation procedures used for the manuscript.
 
 Generated analysis outputs are written to the `results/` directory and are not included in the repository.
-
-## Data availability
-
-The individual-level ENVIRONAGE cohort data underlying this study are not publicly available.
-
-The data are currently being used in several ongoing and planned studies that are at different stages of the research and publication process. Access to individual-level cohort data is additionally subject to applicable ethical, privacy, and institutional data-governance requirements.
-
-The analysis code used for the present study is publicly available through this repository.
 
 ## Citation
 
